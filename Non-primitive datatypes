@@ -1,0 +1,8 @@
+a=(10,29,67,54)
+b=['apple','apple','ren']
+c={'c':30,'d':49}
+d={30,45,67}
+print('tupple:',a)
+print('list:',b)
+print('dict:',c)
+print('set:',d)
