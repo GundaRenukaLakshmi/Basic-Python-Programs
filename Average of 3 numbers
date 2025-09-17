@@ -1,0 +1,6 @@
+a=int(input("enter num"))
+b=int(input("enter num"))
+c=int(input("enter num"))
+avg=a+b+c
+d=avg/3
+print(d)
