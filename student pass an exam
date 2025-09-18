@@ -1,0 +1,15 @@
+theory=int(input("enter theory"))
+if(theory<35):
+   print("better luck for next time")
+practicals=int(input("enter practicals"))
+if(practicals<15):
+   print("better luck for next time")
+if(theory>35 and practicals>15):
+  print("pass")
+score=theory+practicals
+if(score>60 and theory>=35):
+  print("pass")
+elif(score>60 and practicals):
+  print("pass")
+else:
+  print("better luck for next time")
